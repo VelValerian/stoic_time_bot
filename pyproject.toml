@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stoic-time-bot"
+version = "0.1.0"
+description = ""
+authors = ["Valerian <@VelValerian>"]
+readme = "README.md"
+packages = [{include = "stoic_time_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
