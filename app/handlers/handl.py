@@ -30,3 +30,12 @@ async def cmd_begin(message: Message, state: FSMContext):
     await message.answer("Let's Start", reply_markup=kb_reply.begin_keyboard)
     await state.clear()
     await message.delete()
+
+
+@dp.message(F.text == "Choose activity")
+async def cmd_help(message: Message):
+    await message.answer("Pick a topic of activity",
+                         reply_markup=kb_reply.activity_keyboard)
+    await message.delete()
+
+
