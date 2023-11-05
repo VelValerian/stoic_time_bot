@@ -8,6 +8,10 @@ begin_buttons = [
     [KeyboardButton(text="Choose activity"), KeyboardButton(text="Statistics")]
 ]
 
+stop_buttons = [
+    [KeyboardButton(text="Stop")]
+]
+
 activity_buttons = [
     [KeyboardButton(text="Rest"), KeyboardButton(text="Health")],
     [KeyboardButton(text="Routine"), KeyboardButton(text="Study")],
@@ -16,55 +20,55 @@ activity_buttons = [
 ]
 
 rest_buttons = [
-    [KeyboardButton(text="watching"), KeyboardButton(text="read")],
-    [KeyboardButton(text="game"), KeyboardButton(text="sleep")],
-    [KeyboardButton(text="food"), KeyboardButton(text="party")],
-    [KeyboardButton(text="hobby"), KeyboardButton(text="short break")],
+    [KeyboardButton(text="Watching"), KeyboardButton(text="Read")],
+    [KeyboardButton(text="Game"), KeyboardButton(text="Sleep")],
+    [KeyboardButton(text="Food"), KeyboardButton(text="Party")],
+    [KeyboardButton(text="Hobby"), KeyboardButton(text="Short break")],
     [KeyboardButton(text="Back")]
 ]
 
 health_buttons = [
-    [KeyboardButton(text="meditation"), KeyboardButton(text="sports exercises")],
-    [KeyboardButton(text="routine"), KeyboardButton(text="health care")],
+    [KeyboardButton(text="Meditation"), KeyboardButton(text="Sports exercises")],
+    [KeyboardButton(text="Health routine"), KeyboardButton(text="Health care")],
     [KeyboardButton(text="Back")]
 ]
 
 health_sports_buttons = [
-    [KeyboardButton(text="yoga"), KeyboardButton(text="fitness")],
-    [KeyboardButton(text="warm-up"), KeyboardButton(text="outdoor")],
+    [KeyboardButton(text="Yoga"), KeyboardButton(text="Fitness")],
+    [KeyboardButton(text="Warm-up"), KeyboardButton(text="Outdoor")],
     [KeyboardButton(text="Back")]
 ]
 
 health_routine_buttons = [
-    [KeyboardButton(text="morning"), KeyboardButton(text="evening")],
+    [KeyboardButton(text="Morning"), KeyboardButton(text="Evening")],
     [KeyboardButton(text="Back")]
 ]
 
 health_care_buttons = [
-    [KeyboardButton(text="doctor"), KeyboardButton(text="analyses")],
+    [KeyboardButton(text="Doctor"), KeyboardButton(text="Analyses")],
     [KeyboardButton(text="Back")]
 ]
 
 routine_buttons = [
-    [KeyboardButton(text="cooking"), KeyboardButton(text="cleaning")],
-    [KeyboardButton(text="repairing"), KeyboardButton(text="shopping")],
+    [KeyboardButton(text="Cooking"), KeyboardButton(text="Cleaning")],
+    [KeyboardButton(text="Repairing"), KeyboardButton(text="Shopping")],
     [KeyboardButton(text="Back")]
 ]
 
 study_buttons = [
-    [KeyboardButton(text="reading"), KeyboardButton(text="videos")],
-    [KeyboardButton(text="learning"), KeyboardButton(text="lectures")],
+    [KeyboardButton(text="Reading"), KeyboardButton(text="Videos")],
+    [KeyboardButton(text="Learning"), KeyboardButton(text="Coding")],
     [KeyboardButton(text="Back")]
 ]
 
 job_buttons = [
-    [KeyboardButton(text="at work"), KeyboardButton(text="at home")],
+    [KeyboardButton(text="At work"), KeyboardButton(text="At home")],
     [KeyboardButton(text="Back")]
 ]
 
 road_buttons = [
-    [KeyboardButton(text="to work"), KeyboardButton(text="to home")],
-    [KeyboardButton(text="to study"), KeyboardButton(text="to meeting")],
-    [KeyboardButton(text="to party / hobby / fun")],
+    [KeyboardButton(text="To work"), KeyboardButton(text="To home")],
+    [KeyboardButton(text="To study"), KeyboardButton(text="To meeting")],
+    [KeyboardButton(text="To party / hobby / fun")],
     [KeyboardButton(text="Back")]
 ]

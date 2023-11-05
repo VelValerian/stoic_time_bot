@@ -5,6 +5,8 @@ start_keyboard = ReplyKeyboardMarkup(keyboard=start_buttons, resize_keyboard=Tru
 
 begin_keyboard = ReplyKeyboardMarkup(keyboard=begin_buttons, resize_keyboard=True)
 
+stop_keyboard = ReplyKeyboardMarkup(keyboard=stop_buttons, resize_keyboard=True)
+
 activity_keyboard = ReplyKeyboardMarkup(keyboard=activity_buttons, resize_keyboard=True)
 
 rest_keyboard = ReplyKeyboardMarkup(keyboard=rest_buttons, resize_keyboard=True)
@@ -22,3 +24,5 @@ routine_keyboard = ReplyKeyboardMarkup(keyboard=routine_buttons, resize_keyboard
 study_keyboard = ReplyKeyboardMarkup(keyboard=study_buttons, resize_keyboard=True)
 
 job_keyboard = ReplyKeyboardMarkup(keyboard=job_buttons, resize_keyboard=True)
+
+road_keyboard = ReplyKeyboardMarkup(keyboard=road_buttons, resize_keyboard=True)
