@@ -1,4 +1,6 @@
-from app.database import db_activ_name, hms_time_convert, dhms_time_convert
+from app.database import db_activ_name
+from app.utils import hms_time_convert, dhms_time_convert
+
 async def hms_convert_id_to_value(lst: list) -> dict:
     """
     Convert list(id,value) to dict(name,HH:MM:SS)
