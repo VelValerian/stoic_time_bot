@@ -11,7 +11,7 @@ async def start():
                                "(%(filename)s).%(funcName)s(%(lineno)d) - %(message)s"
                         )
     try:
-        # dp.include_routers(search_del.router, add_object.router)
+
         await bot.delete_webhook(drop_pending_updates=True)
         await db_commands.db_start()
         await dp.start_polling(bot)
