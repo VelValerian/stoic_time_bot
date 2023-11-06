@@ -40,8 +40,10 @@ async def cmd_stop(message: Message):
 
 @dp.message(F.text == "Statistics")
 async def cmd_statistics(message: Message):
-
-    await message.answer(f"Here Statistic", reply_markup=kb_reply.begin_keyboard)
+    lst_msg = await db_commands.db_get_spend_time(message.from_user.id)
+    dict_msg = await hms_convert_id_to_value(lst_msg)
+    msg = await format_msg(dict_msg)
+    await message.answer(f"Here Statistic {msg}", reply_markup=kb_reply.begin_keyboard)
     await message.delete()
 
 
